@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\itsju\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\itsju\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_CCore-DarkRift.-683208078.00" t="ExcludeRecursive" />
+    <e p="D:\DarkRiftServer\Senary" t="IncludeFlat">
+      <e p="CCore-DarkRift.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Senary" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CCore-DarkRift.csproj" t="IncludeRecursive" />
+        <e p="CCorePlugin.cs" t="Include" />
+        <e p="Logging" t="Include">
+          <e p="Log.cs" t="Include" />
+        </e>
+        <e p="Messaging" t="Include">
+          <e p="MessageController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="CCore-DarkRift.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Players" t="Include">
+          <e p="Player.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
+        </e>
+        <e p="Rooms" t="Include">
+          <e p="Room.cs" t="Include" />
+          <e p="RoomController.cs" t="Include" />
+        </e>
+      </e>
+    </e>
+  </component>
+</project>

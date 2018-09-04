@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DarkRift, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\DarkRiftServer\Lib\DarkRift.dll</HintPath>
+    </Reference>
+    <Reference Include="DarkRift.Server, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\DarkRiftServer\Lib\DarkRift.Server.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

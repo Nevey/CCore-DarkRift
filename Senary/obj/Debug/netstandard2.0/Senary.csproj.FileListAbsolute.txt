@@ -1,0 +1,14 @@
+D:\DarkRiftServer\Senary\Senary\bin\Debug\netstandard2.0\Senary.deps.json
+D:\DarkRiftServer\Senary\Senary\bin\Debug\netstandard2.0\Senary.dll
+D:\DarkRiftServer\Senary\Senary\bin\Debug\netstandard2.0\Senary.pdb
+D:\DarkRiftServer\Senary\Senary\bin\Debug\netstandard2.0\DarkRift.dll
+D:\DarkRiftServer\Senary\Senary\bin\Debug\netstandard2.0\DarkRift.Server.dll
+D:\DarkRiftServer\Senary\Senary\bin\Debug\netstandard2.0\DarkRift.xml
+D:\DarkRiftServer\Senary\Senary\bin\Debug\netstandard2.0\DarkRift.Server.xml
+D:\DarkRiftServer\Senary\Senary\obj\Debug\netstandard2.0\Senary.csprojAssemblyReference.cache
+D:\DarkRiftServer\Senary\Senary\obj\Debug\netstandard2.0\Senary.csproj.CoreCompileInputs.cache
+D:\DarkRiftServer\Senary\Senary\obj\Debug\netstandard2.0\Senary.AssemblyInfoInputs.cache
+D:\DarkRiftServer\Senary\Senary\obj\Debug\netstandard2.0\Senary.AssemblyInfo.cs
+D:\DarkRiftServer\Senary\Senary\obj\Debug\netstandard2.0\Senary.csproj.CopyComplete
+D:\DarkRiftServer\Senary\Senary\obj\Debug\netstandard2.0\Senary.dll
+D:\DarkRiftServer\Senary\Senary\obj\Debug\netstandard2.0\Senary.pdb
