@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<plugins nextID="8">
+<plugins nextID="9">
   <plugin id="0" name="HelpCommand" version="1.0.0" />
   <plugin id="1" name="PluginController" version="1.0.0" />
   <plugin id="2" name="Sniffer" version="1.0.0" />
@@ -8,4 +8,5 @@
   <plugin id="5" name="MockCommand" version="1.0.0" />
   <plugin id="6" name="AgarPlayerManager" version="1.0.0" />
   <plugin id="7" name="SenaryPlugin" version="0.0" />
+  <plugin id="8" name="CCorePlugin" version="0.0" />
 </plugins>

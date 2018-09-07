@@ -7,14 +7,14 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Senary/1.0.0": {
+      "CCore-DarkRift/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "DarkRift": "2.1.2.0",
           "DarkRift.Server": "2.1.2.0"
         },
         "runtime": {
-          "Senary.dll": {}
+          "CCore-DarkRift.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -42,7 +42,7 @@
     }
   },
   "libraries": {
-    "Senary/1.0.0": {
+    "CCore-DarkRift/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

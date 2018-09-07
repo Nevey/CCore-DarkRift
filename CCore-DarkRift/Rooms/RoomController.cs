@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Senary.Logging;
+using Senary.Messaging;
 using Senary.Players;
 
 namespace Senary.Rooms
@@ -12,7 +13,8 @@ namespace Senary.Rooms
 
         private Room CreateRoom()
         {
-            Room room = new Room();
+            // Room id is rooms count
+            Room room = new Room(rooms.Count);
             
             Log.WriteLog("New room created...");
             
@@ -89,8 +91,10 @@ namespace Senary.Rooms
             player.OnJoinedRoom(room);
                 
             player.DisconnectedEvent += RemovePlayerFromRoom;
-                
-            // TODO: Send message to players
+            
+            CCorePlugin.Instance.MessageController.SendMessage(
+                MessageTags.PLAYERJOINEDROOM,
+                (byte)room.ID);
         }
 
         public void RemovePlayerFromRoom(Player player)

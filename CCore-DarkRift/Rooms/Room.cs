@@ -7,11 +7,15 @@ namespace Senary.Rooms
 {
     public class Room
     {
+        private readonly int id;
+        
         private ushort minPlayerCount = 1;
 
         private ushort maxPlayerCount = 2;
-        
+
         private readonly List<Player> players = new List<Player>();
+
+        public int ID => id;
 
         public bool IsEmpty => players.Count == 0;
 
@@ -19,9 +23,9 @@ namespace Senary.Rooms
         
         public bool IsFull => players.Count == maxPlayerCount;
 
-        public Room()
+        public Room(int id)
         {
-            
+            this.id = id;
         }
 
         public Room(ushort minPlayerCount, ushort maxPlayerCount)

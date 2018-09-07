@@ -1,5 +1,7 @@
+using System.Data;
 using DarkRift;
 using DarkRift.Server;
+using Senary.Logging;
 
 namespace Senary.Messaging
 {
@@ -12,13 +14,14 @@ namespace Senary.Messaging
             this.clientManager = clientManager;
         }
         
-        public void SendMessage(params byte[] bytes)
+        public void SendMessage(ushort messageTag, params byte[] bytes)
         {
-            const ushort messageTag = 0;
-
             using (DarkRiftWriter darkRiftWriter = DarkRiftWriter.Create())
             {
-                darkRiftWriter.Write(bytes);
+                for (int i = 0; i < bytes.Length; i++)
+                {
+                    darkRiftWriter.Write(bytes[i]);
+                }
 
                 using (Message newPlayerMessage = Message.Create(messageTag, darkRiftWriter))
                 {

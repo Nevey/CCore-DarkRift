@@ -9,7 +9,6 @@ using Senary.Rooms;
 
 namespace Senary
 {
-    // TODO: Separate room logic into a different plugin
     public class CCorePlugin : Plugin
     {
         private readonly MessageController messageController;
@@ -22,6 +21,10 @@ namespace Senary
         
         public override bool ThreadSafe => false;
 
+        public MessageController MessageController => messageController;
+
+        public static CCorePlugin Instance;
+
         public CCorePlugin(PluginLoadData pluginLoadData) : base(pluginLoadData)
         {
             Log.SetPluginLoadData(pluginLoadData);
@@ -30,6 +33,8 @@ namespace Senary
             
             ClientManager.ClientConnected += OnClientConnected;
             ClientManager.ClientDisconnected += OnClientConnected;
+
+            Instance = this;
         }
 
         private void OnClientConnected(object sender, ClientConnectedEventArgs e)
