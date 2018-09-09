@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Senary.Logging;
-using Senary.Messaging;
 using Senary.Players;
 
 namespace Senary.Rooms
@@ -91,10 +90,6 @@ namespace Senary.Rooms
             player.OnJoinedRoom(room);
                 
             player.DisconnectedEvent += RemovePlayerFromRoom;
-
-            CCorePlugin.Instance.MessageController.SendMessage(
-                player.MyRoom.ID, MessageTags.PLAYERJOINEDROOM,
-                (byte)player.Client.ID);
         }
 
         public void RemovePlayerFromRoom(Player player)
@@ -122,8 +117,6 @@ namespace Senary.Rooms
             player.DisconnectedEvent -= RemovePlayerFromRoom;
             
             CheckForEmptyRooms();
-
-            // TODO: Send message to players
         }
     }
 }

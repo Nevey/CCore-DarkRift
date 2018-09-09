@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\DarkRiftServer\\CCore-DarkRift\\CCore-DarkRift\\CCore-DarkRift.csproj",
+    "projectUniqueName": "D:\\DarkRift2\\CCore-DarkRift\\CCore-DarkRift\\CCore-DarkRift.csproj",
     "projectName": "CCore-DarkRift",
-    "projectPath": "D:\\DarkRiftServer\\CCore-DarkRift\\CCore-DarkRift\\CCore-DarkRift.csproj",
-    "outputPath": "D:\\DarkRiftServer\\CCore-DarkRift\\CCore-DarkRift\\obj\\",
+    "projectPath": "D:\\DarkRift2\\CCore-DarkRift\\CCore-DarkRift\\CCore-DarkRift.csproj",
+    "outputPath": "D:\\DarkRift2\\CCore-DarkRift\\CCore-DarkRift\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

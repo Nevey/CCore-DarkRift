@@ -12,3 +12,17 @@ D:\DarkRiftServer\CCore-DarkRift\CCore-DarkRift\obj\Debug\netstandard2.0\CCore-D
 D:\DarkRiftServer\CCore-DarkRift\CCore-DarkRift\obj\Debug\netstandard2.0\CCore-DarkRift.csproj.CopyComplete
 D:\DarkRiftServer\CCore-DarkRift\CCore-DarkRift\obj\Debug\netstandard2.0\CCore-DarkRift.dll
 D:\DarkRiftServer\CCore-DarkRift\CCore-DarkRift\obj\Debug\netstandard2.0\CCore-DarkRift.pdb
+D:\DarkRift2\CCore-DarkRift\CCore-DarkRift\bin\Debug\netstandard2.0\CCore-DarkRift.deps.json
+D:\DarkRift2\CCore-DarkRift\CCore-DarkRift\bin\Debug\netstandard2.0\CCore-DarkRift.dll
+D:\DarkRift2\CCore-DarkRift\CCore-DarkRift\bin\Debug\netstandard2.0\CCore-DarkRift.pdb
+D:\DarkRift2\CCore-DarkRift\CCore-DarkRift\bin\Debug\netstandard2.0\DarkRift.dll
+D:\DarkRift2\CCore-DarkRift\CCore-DarkRift\bin\Debug\netstandard2.0\DarkRift.Server.dll
+D:\DarkRift2\CCore-DarkRift\CCore-DarkRift\bin\Debug\netstandard2.0\DarkRift.xml
+D:\DarkRift2\CCore-DarkRift\CCore-DarkRift\bin\Debug\netstandard2.0\DarkRift.Server.xml
+D:\DarkRift2\CCore-DarkRift\CCore-DarkRift\obj\Debug\netstandard2.0\CCore-DarkRift.csprojAssemblyReference.cache
+D:\DarkRift2\CCore-DarkRift\CCore-DarkRift\obj\Debug\netstandard2.0\CCore-DarkRift.csproj.CoreCompileInputs.cache
+D:\DarkRift2\CCore-DarkRift\CCore-DarkRift\obj\Debug\netstandard2.0\CCore-DarkRift.AssemblyInfoInputs.cache
+D:\DarkRift2\CCore-DarkRift\CCore-DarkRift\obj\Debug\netstandard2.0\CCore-DarkRift.AssemblyInfo.cs
+D:\DarkRift2\CCore-DarkRift\CCore-DarkRift\obj\Debug\netstandard2.0\CCore-DarkRift.csproj.CopyComplete
+D:\DarkRift2\CCore-DarkRift\CCore-DarkRift\obj\Debug\netstandard2.0\CCore-DarkRift.dll
+D:\DarkRift2\CCore-DarkRift\CCore-DarkRift\obj\Debug\netstandard2.0\CCore-DarkRift.pdb

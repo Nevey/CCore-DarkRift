@@ -1,0 +1,26 @@
+[Trace]   DarkRiftServer        System Details:
+                                	OS: Microsoft Windows NT 6.2.9200.0
+                                	CLS Version: 4.0.30319.42000
+                                	DarkRift: 2.1.2.0 - Free
+[Trace]   PluginFactory         Created plugin 'CCorePlugin'.
+[Trace]   PluginManagerBase     Plugin 'CCorePlugin' has requested that DarkRift operates in thread safe mode.
+[Trace]   DarkRiftServer        Switched into thread safe mode. Expect lower performance!
+[Info]    PluginManagerBase     Loaded plugin CCorePlugin version 0.0
+[Trace]   NetworkListener       Starting standard listener.
+[Info]    DarkRiftServer        Server mounted, listening on port 4296.
+[Trace]   NetworkListener       Accepted TCP connection from 127.0.0.1:63613.
+[Trace]   NetworkListener       Accepted UDP connection from 127.0.0.1:61778.
+[Info]    ClientManager         New client [0] connected [127.0.0.1:63613|61778].
+[Info]    ClientManager         Client [0] disconnected.
+[Trace]   NetworkListener       Accepted TCP connection from 127.0.0.1:63631.
+[Trace]   NetworkListener       Accepted UDP connection from 127.0.0.1:63580.
+[Info]    ClientManager         New client [1] connected [127.0.0.1:63631|63580].
+[Info]    ClientManager         Client [1] disconnected.
+[Trace]   NetworkListener       Accepted TCP connection from 127.0.0.1:63681.
+[Trace]   NetworkListener       Accepted UDP connection from 127.0.0.1:64509.
+[Info]    ClientManager         New client [2] connected [127.0.0.1:63681|64509].
+[Trace]   NetworkListener       Accepted TCP connection from 127.0.0.1:63705.
+[Trace]   NetworkListener       Accepted UDP connection from 127.0.0.1:53239.
+[Info]    ClientManager         New client [3] connected [127.0.0.1:63705|53239].
+[Info]    ClientManager         Client [2] disconnected.
+[Info]    ClientManager         Client [3] disconnected.
