@@ -9,6 +9,8 @@ namespace Senary.Players
     {
         private readonly List<Player> players = new List<Player>();
 
+        public List<Player> Players => players;
+
         private Player CreateNewPlayer(IClient client)
         {
             Player player = new Player(client);

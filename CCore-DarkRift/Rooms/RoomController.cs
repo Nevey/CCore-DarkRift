@@ -91,10 +91,10 @@ namespace Senary.Rooms
             player.OnJoinedRoom(room);
                 
             player.DisconnectedEvent += RemovePlayerFromRoom;
-            
+
             CCorePlugin.Instance.MessageController.SendMessage(
-                MessageTags.PLAYERJOINEDROOM,
-                (byte)room.ID);
+                player.MyRoom.ID, MessageTags.PLAYERJOINEDROOM,
+                (byte)player.Client.ID);
         }
 
         public void RemovePlayerFromRoom(Player player)

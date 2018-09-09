@@ -1,7 +1,6 @@
-using System.Data;
 using DarkRift;
 using DarkRift.Server;
-using Senary.Logging;
+using Senary.Players;
 
 namespace Senary.Messaging
 {
@@ -11,23 +10,31 @@ namespace Senary.Messaging
         
         public MessageController(IClientManager clientManager)
         {
+            // TODO: Check if this can be removed
             this.clientManager = clientManager;
         }
         
-        public void SendMessage(ushort messageTag, params byte[] bytes)
+        public void SendMessage(int roomID, ushort messageTag, params byte[] bytes)
         {
-            using (DarkRiftWriter darkRiftWriter = DarkRiftWriter.Create())
+            using (DarkRiftWriter writer = DarkRiftWriter.Create())
             {
                 for (int i = 0; i < bytes.Length; i++)
                 {
-                    darkRiftWriter.Write(bytes[i]);
+                    writer.Write(bytes[i]);
                 }
 
-                using (Message newPlayerMessage = Message.Create(messageTag, darkRiftWriter))
+                using (Message message = Message.Create(messageTag, writer))
                 {
-                    foreach (IClient client in clientManager.GetAllClients())
+                    for (int i = 0; i < CCorePlugin.Instance.PlayerController.Players.Count; i++)
                     {
-                        client.SendMessage(newPlayerMessage, SendMode.Reliable);
+                        Player player = CCorePlugin.Instance.PlayerController.Players[i];
+
+                        if (player.MyRoom.ID != roomID)
+                        {
+                            continue;
+                        }
+
+                        player.Client.SendMessage(message, SendMode.Reliable);
                     }
                 }
             }

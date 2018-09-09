@@ -23,6 +23,8 @@ namespace Senary
 
         public MessageController MessageController => messageController;
 
+        public PlayerController PlayerController => playerController;
+
         public static CCorePlugin Instance;
 
         public CCorePlugin(PluginLoadData pluginLoadData) : base(pluginLoadData)
